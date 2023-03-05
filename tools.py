@@ -118,7 +118,7 @@ def write_to_parquet(df, output_path, table_name):
     
     print("Writing table {} to {}".format(table_name, file_path))
     
-    df.write.mode("overwrite").parquet(file_path)
+    df.repartition(20).write.format("parquet").mode("overwrite").save(file_path)
     
     print("Write complete!")
     
