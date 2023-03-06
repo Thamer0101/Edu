@@ -1,15 +1,13 @@
 # Import Libraries
 import pandas as pd
-from pyspark.sql import SparkSession
+from pyspark.sql import SparkSession, SQLContext, GroupedData, HiveContext
 import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 import configparser
 import datetime as dt
 
-from pyspark.sql import SparkSession
 from pyspark.sql.functions import avg
-from pyspark.sql import SQLContext
 from pyspark.sql.functions import isnan, when, count, col, udf, dayofmonth, dayofweek, month, year, weekofyear
 from pyspark.sql.functions import desc, row_number, monotonically_increasing_id
 from pyspark.sql.window import Window
@@ -20,9 +18,7 @@ import plotly.graph_objs as go
 import requests
 requests.packages.urllib3.disable_warnings()
 
-from pyspark.sql.functions import monotonically_increasing_id, year, month, dayofmonth, weekofyear, date_format
-
-from pyspark.sql import SparkSession, SQLContext, GroupedData, HiveContext
+from pyspark.sql.functions import year, month, dayofmonth, weekofyear, date_format
 from pyspark.sql.functions import *
 from pyspark.sql.functions import date_add as d_add
 from pyspark.sql.types import DoubleType, StringType, IntegerType, FloatType
@@ -31,7 +27,6 @@ from pyspark.sql.functions import lit
 from pyspark.sql import Row
 
 import datetime, time
-
 import tools as tools
 
 
