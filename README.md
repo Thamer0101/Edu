@@ -1,4 +1,3 @@
-![shco](https://user-images.githubusercontent.com/127024138/223195693-8310b14b-9054-42fd-928d-58b47ca9cb6a.PNG)
 # Data-Engineering-Project
 This project aims to combine two data sets containing shcolarships data and Countries data. The primary purpose of the combination is to create a schema which can be used to derive various correlations, trends and analytics. 
 _________________________________________________________________________________________________________________________________________________________________________________________
@@ -7,7 +6,7 @@ ________________________________________________________________________________
   - This data comes from https://od.data.gov.sa/Data/ar/group/education_and_training?page=2 :'البوابة الوطنية للبيانات المفتوحة'.
 - Countries dataset of the World :This dataset contains Country names linked to region, population, area size, GDP, mortality and more.
   - This data comes from Kaggle: https://www.kaggle.com/datasets/fernandol/countries-of-the-world
-
+![shco](https://user-images.githubusercontent.com/127024138/223195693-8310b14b-9054-42fd-928d-58b47ca9cb6a.PNG)
 # Data Model:
 _________________________________________________________________________________________________________________________________________________________________________________________
 
