@@ -1,5 +1,5 @@
 # Data-Engineering-Project
-This project aims to combine two data sets containing shcolarships data and Countries data. The primary purpose of the combination is to create a schema which can be used to derive various correlations, trends and analytics. 
+This project aims to combine two data sets containing scholarships data and Countries data. The primary purpose of the combination is to create a schema which can be used to derive various correlations, trends and analytics. 
 _________________________________________________________________________________________________________________________________________________________________________________________
 ## Datasets:
 - Edu_ministry dataset is a sample data of saudi scholarships students records since 2015 to 2018 provided from the Ministry of Education.. This data source will serve as the Fact table in the schema.
