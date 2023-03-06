@@ -26,7 +26,7 @@ In accordance with Kimball Dimensional Modelling Techniques, laid out in this do
  - Fact tables focus on the occurrences of a singular business process, and have a one-to-one relationship with the events described in the grain.
  - The fact table identified in this project is:
    - fact_scholarships
-   
+   ![ER Diagram](https://user-images.githubusercontent.com/127024138/223195971-5d863c46-8c1b-4a64-ad53-5af01d9073f8.PNG)
 For this application, I have developed a set of Fact and Dimension tables in a Relational Database Management System to form a Star Schema. This Star Schema can be used by Data Analysts and other relevant business professionals to gain deeper insight into various scholarships figures, trends and statistics recorded historically.
 
 
